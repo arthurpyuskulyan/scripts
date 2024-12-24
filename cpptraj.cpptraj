@@ -1,0 +1,10 @@
+#This script uses cpptraj and AMBER prmtop file 
+#to compute the temperature of specified atoms
+# :1 is for only first molecule. To run it, need
+# to print velocities in AMBER through mdvel flag.
+# To run, command is cpptraj -i cpptraj.cpptraj 
+parm *.prmtop
+trajin qmmm.mdcrd mdvel mdvel
+temperature out temperaturetot.dat :1
+go
+
