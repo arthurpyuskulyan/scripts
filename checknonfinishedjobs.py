@@ -1,5 +1,5 @@
-#This scripts loops through folders (1-60 here) to go into each log 
-# file and check if has completed
+#This script loops through folders (1-60 here) to go into each log 
+# file and check if it has completed
 
 import os
 
