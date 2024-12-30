@@ -1,12 +1,14 @@
+# This script converts XYZ files to PDB files by utilizing the OpenBabel module.
+
 import os
 import subprocess
 
-# Create a directory for PDB files if it doesn't exist
+# Create a directory for PDB files if it does not exist
 pdb_dir = "pdbfiles"
 if not os.path.exists(pdb_dir):
     os.mkdir(pdb_dir)
 
-xyz_dir = "xyzfiles"
+xyz_dir = "xyzfiles" # This is your folder name with the XYZ files
 xyz_files = [f for f in os.listdir(xyz_dir) if f.startswith("gsopted") and f.endswith(".xyz")]
 
 for xyz_file in xyz_files:
