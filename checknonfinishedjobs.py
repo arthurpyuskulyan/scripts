@@ -1,4 +1,4 @@
-#This script loops through folders (1-60 here) to go into each log 
+#This script loops through folders (1-60 here) to go into each Gaussian log 
 # file and check if it has completed
 
 import os
