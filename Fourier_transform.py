@@ -1,3 +1,9 @@
+# This script Fourier tranforms from the time domain to the frequency domain.
+# It also verifies the Fourier transform procedure is correct
+# by checking and showing that the numerical Fourier transform of a 
+# Gaussian is a Gaussian and it equals the analytical expression.
+# 
+
 import numpy as np
 import matplotlib.pyplot as plt
 
