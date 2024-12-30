@@ -5,6 +5,6 @@
 # To run, command is cpptraj -i cpptraj.cpptraj 
 parm *.prmtop
 trajin qmmm.mdcrd mdvel mdvel
-temperature out temperaturedye.dat :1
+temperature out temperature1stmolecule.dat :1
 go
 
