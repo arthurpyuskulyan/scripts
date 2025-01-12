@@ -22,10 +22,7 @@ cw = sigma * np.sqrt(2 * np.pi) * np.exp(-w * w * sigma * sigma / 2.0)
 plt.plot(w, cw)  # Orange solid line represents the analytical result
 plt.show()
 
-# Re-import numpy (unnecessary duplicate, but left for consistency)
-import numpy as np
 
-# Redefine parameters and grid
 sigma = 20
 w = np.arange(-0.25, 0.25, 0.001)  # Frequency grid
 t = np.arange(-100, 100, 1)  # Time grid
