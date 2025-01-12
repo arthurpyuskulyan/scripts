@@ -2,7 +2,7 @@
 #to compute the temperature of specified atoms
 # :1 is for only first molecule. To run it, need
 # to print velocities in AMBER through mdvel flag.
-# To run, command is cpptraj -i cpptraj.cpptraj 
+# To run, command is cpptraj -i computetemperature.cpptraj 
 parm *.prmtop
 trajin qmmm.mdcrd mdvel mdvel
 temperature out temperature1stmolecule.dat :1
