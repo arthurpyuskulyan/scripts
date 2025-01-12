@@ -1,4 +1,5 @@
-#full width half max
+# This scripts computes the full width half maximum 
+# taking in as input the energies and intensities.
 def calculate_fwhm(energies, intensities):
     max_intensity = max(intensities)
     half_max = max_intensity / 2
