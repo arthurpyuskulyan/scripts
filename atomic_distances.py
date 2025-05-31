@@ -1,4 +1,6 @@
-# The interatomic distances are computed using MDAnalysis
+# The interatomic distances are computed using MDAnalysis.
+# This file example goes through folders 1-3 and computes the distance 
+# between the 10th atom, a nitrogen, and the 4th atom, a carbon.
 import os
 import MDAnalysis as mda
 frameanddistancen10c4 = []
