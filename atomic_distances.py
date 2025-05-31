@@ -1,6 +1,8 @@
 # The interatomic distances are computed using MDAnalysis.
 # This file example goes through folders 1-3 and computes the distance 
 # between the 10th atom, a nitrogen, and the 4th atom, a carbon.
+# The folder it gets the xyz files is from the xyzfiles folder. 
+# It goes into that folder and gets the files ending with .xyz
 import os
 import MDAnalysis as mda
 frameanddistancen10c4 = []
