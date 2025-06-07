@@ -2,7 +2,7 @@
 # It gets rmin/2 (Å)   σ (Å)      εpsilon (kcal/mol)    εpsilon (kJ/mol)  
 import parmed
 
-parm = parmed.load_file('cresyl_methanol_dorplet.prmtop')
+parm = parmed.load_file('cresylvioletmethanol.prmtop')
 
 two_sixth = 2 ** (1/6)  # Calculate the sixth root of 2 (~1.12246), used to convert rmin to sigma
 
