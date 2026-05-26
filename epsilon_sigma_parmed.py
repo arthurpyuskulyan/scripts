@@ -1,4 +1,5 @@
 #This is a script that uses parmed to get the epsilon and sigma for each atom
+# using the parameter topology file from AMBER .prmtop
 # It gets rmin/2 (Å)   σ (Å)      εpsilon (kcal/mol)    εpsilon (kJ/mol)  
 import parmed
 
